@@ -1,0 +1,16 @@
+spring:
+   
+  main:
+      banner-mode: "off"    
+  
+  profiles:
+      active: prod
+      
+#  kafka.consumer.properties.spring.json.trusted.packages: com.techprimers.kafka.springbootkafkaconsumerexample.model
+#  kafka.consumer.value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      
+      
+#  kafka.consumer.properties.spring.json.trusted.packages: "com.techprimers.kafka.springbootkafkaconsumerexample.model.User"
+        
+server:
+  port: 8002
